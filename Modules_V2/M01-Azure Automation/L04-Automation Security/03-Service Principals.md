@@ -1,0 +1,5 @@
+# Service Principals  
+
+A service principal is a local representation of your application in Active Directory. It contains the role assignment. As part of using Azure Automation runbooks (see next lesson on runbooks) to help operationalize Azure subscriptions, runbooks need to securely authenticate to Azure with a minimum of administration overhead. As a best practice, authentication solutions usually entail using certificates to authenticate an Azure AD service principal that has been granted the relevant Role-Based Access Control (RBAC) permissions to manage the Azure subscription.
+
+To configure certificate-based authentication with Azure AD service principals from within Azure Automation PowerShell Workflow runbooks, see this [tutorial](https://blogs.technet.microsoft.com/keithmayer/2016/03/26/8-steps-for-using-azure-ad-service-principal-certificate-authentication-with-azure-automation-powershell-workflow-runbooks/).
